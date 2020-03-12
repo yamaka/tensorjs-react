@@ -104,10 +104,10 @@ class App extends React.Component {
           autoPlay
           muted
           ref={this.videoRef}
-          width="720"
-          height="600"
+          width="1024"
+          height="2048"
         />
-        <canvas style={this.styles} ref={this.canvasRef} width="720" height="650" />
+        <canvas style={this.styles} ref={this.canvasRef} width="1024" height="2048" />
       </div>
     );
   }
